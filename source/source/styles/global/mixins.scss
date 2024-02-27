@@ -1,0 +1,14 @@
+@mixin list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@mixin subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 133%;
+  color: $base-primary;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}

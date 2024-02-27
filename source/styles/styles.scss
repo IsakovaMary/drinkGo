@@ -1,7 +1,33 @@
 /* GLOBAL */
+@import "../vendor/nouislider/nouislider.css";
 @import "./global/variables.scss";
 @import "./global/global.scss";
 @import "./global/fonts.scss";
+@import "./global/mixins.scss";
+@import "./global/visually-hidden.scss";
+@import "./global/wrapper.scss";
+@import "./global/page.scss";
+@import "./global/button.scss";
 
 /* BLOCKS */
+
+@import "./blocks/main.scss";
 @import "./blocks/header.scss";
+@import "./blocks/hero-block.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/user.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/options.scss";
+@import "./blocks/filters.scss";
+@import "./blocks/filter-milk.scss";
+@import "./blocks/switch.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/card.scss";
+@import "./blocks/pagination.scss";
+@import "./blocks/map.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/column-list.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/filter-price.scss";
